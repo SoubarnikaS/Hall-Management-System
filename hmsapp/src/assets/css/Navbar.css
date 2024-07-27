@@ -44,7 +44,6 @@
     font-family: "Dancing Script";
     justify-content: flex-start;
     align-items: center;
-    /* background-color: blue; */
 }
 
 .nav-items{
@@ -87,7 +86,7 @@
     width: 6vw;
     font-size: 1vw;
     font-family: 'Poppins';
-    font-weight: 530;
+    /* font-weight: 530; */
     background-color: #fff;
     cursor: pointer;
     border: 1px solid black;

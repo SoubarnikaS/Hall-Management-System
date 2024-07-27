@@ -1,22 +1,10 @@
 import '../css/Navbar.css';
-import { useState } from 'react';
 import { PackageOpen } from 'lucide-react';
 import LoginForm from './LoginForm';
 
 import Popup from 'reactjs-popup';
 
 const Navbar = () => {
-
-    const [isLoginOpen, setIsLoginOpen] = useState(false);
-
-    const handleLoginClick = () => {
-        setIsLoginOpen(true);
-    };
-
-    const handleLoginClose = () => {
-        setIsLoginOpen(false);
-    };
-
 
 
     return (

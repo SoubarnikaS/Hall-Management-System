@@ -1,10 +1,14 @@
-import Navbar from './assets/pages/Navbar';
+import LandingPage from "./assets/pages/LandingPage"
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+    <LandingPage/>
+      {/* <Navbar/> */}
+      {/* <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1> */}
       
     </>
   )
